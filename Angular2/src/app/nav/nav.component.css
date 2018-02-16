@@ -1,0 +1,18 @@
+.nav-pills > li > a {
+    border-radius: 0;
+    border-top: 3px solid white;
+    color: #fff0f0;
+}
+
+.nav-pills > li :hover {
+    color: #000000 !important;
+}
+
+.nav {
+    background-color: black;
+}
+
+.nav-pills > li.active > a:active, .nav-pills > li.active > a:hover, .nav-pills > li.selected:active {
+    color: #fff;
+    background-color: #000000;
+}

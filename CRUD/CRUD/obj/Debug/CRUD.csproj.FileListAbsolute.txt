@@ -1,0 +1,260 @@
+C:\CRUD\CRUD\CRUD\bin\ApplicationInsights.config
+C:\CRUD\CRUD\CRUD\bin\roslyn\csc.exe
+C:\CRUD\CRUD\CRUD\bin\roslyn\csc.exe.config
+C:\CRUD\CRUD\CRUD\bin\roslyn\csc.rsp
+C:\CRUD\CRUD\CRUD\bin\roslyn\csi.exe
+C:\CRUD\CRUD\CRUD\bin\roslyn\csi.exe.config
+C:\CRUD\CRUD\CRUD\bin\roslyn\csi.rsp
+C:\CRUD\CRUD\CRUD\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\CRUD\CRUD\CRUD\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\CRUD\CRUD\CRUD\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\CRUD\CRUD\CRUD\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\CRUD\CRUD\CRUD\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\CRUD\CRUD\CRUD\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\CRUD\CRUD\CRUD\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\CRUD\CRUD\CRUD\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\CRUD\CRUD\CRUD\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\CRUD\CRUD\CRUD\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\CRUD\CRUD\CRUD\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\CRUD\CRUD\CRUD\bin\roslyn\System.AppContext.dll
+C:\CRUD\CRUD\CRUD\bin\roslyn\System.Collections.Immutable.dll
+C:\CRUD\CRUD\CRUD\bin\roslyn\System.Console.dll
+C:\CRUD\CRUD\CRUD\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\CRUD\CRUD\CRUD\bin\roslyn\System.Diagnostics.Process.dll
+C:\CRUD\CRUD\CRUD\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\CRUD\CRUD\CRUD\bin\roslyn\System.IO.Compression.dll
+C:\CRUD\CRUD\CRUD\bin\roslyn\System.IO.FileSystem.dll
+C:\CRUD\CRUD\CRUD\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\CRUD\CRUD\CRUD\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\CRUD\CRUD\CRUD\bin\roslyn\System.IO.Pipes.dll
+C:\CRUD\CRUD\CRUD\bin\roslyn\System.Reflection.Metadata.dll
+C:\CRUD\CRUD\CRUD\bin\roslyn\System.Security.AccessControl.dll
+C:\CRUD\CRUD\CRUD\bin\roslyn\System.Security.Claims.dll
+C:\CRUD\CRUD\CRUD\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\CRUD\CRUD\CRUD\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\CRUD\CRUD\CRUD\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\CRUD\CRUD\CRUD\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\CRUD\CRUD\CRUD\bin\roslyn\System.Security.Principal.Windows.dll
+C:\CRUD\CRUD\CRUD\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\CRUD\CRUD\CRUD\bin\roslyn\System.Threading.Thread.dll
+C:\CRUD\CRUD\CRUD\bin\roslyn\System.ValueTuple.dll
+C:\CRUD\CRUD\CRUD\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\CRUD\CRUD\CRUD\bin\roslyn\System.Xml.XmlDocument.dll
+C:\CRUD\CRUD\CRUD\bin\roslyn\System.Xml.XPath.dll
+C:\CRUD\CRUD\CRUD\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\CRUD\CRUD\CRUD\bin\roslyn\vbc.exe
+C:\CRUD\CRUD\CRUD\bin\roslyn\vbc.exe.config
+C:\CRUD\CRUD\CRUD\bin\roslyn\vbc.rsp
+C:\CRUD\CRUD\CRUD\bin\roslyn\VBCSCompiler.exe
+C:\CRUD\CRUD\CRUD\bin\roslyn\VBCSCompiler.exe.config
+C:\CRUD\CRUD\CRUD\bin\CRUD.dll.config
+C:\CRUD\CRUD\CRUD\bin\CRUD.dll
+C:\CRUD\CRUD\CRUD\bin\CRUD.pdb
+C:\CRUD\CRUD\CRUD\bin\Antlr3.Runtime.dll
+C:\CRUD\CRUD\CRUD\bin\EntityFramework.Commands.dll
+C:\CRUD\CRUD\CRUD\bin\EntityFramework.Core.dll
+C:\CRUD\CRUD\CRUD\bin\EntityFramework.MicrosoftSqlServer.dll
+C:\CRUD\CRUD\CRUD\bin\EntityFramework.Relational.Design.dll
+C:\CRUD\CRUD\CRUD\bin\EntityFramework.Relational.dll
+C:\CRUD\CRUD\CRUD\bin\Microsoft.AI.Agent.Intercept.dll
+C:\CRUD\CRUD\CRUD\bin\Microsoft.AI.DependencyCollector.dll
+C:\CRUD\CRUD\CRUD\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\CRUD\CRUD\CRUD\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\CRUD\CRUD\CRUD\bin\Microsoft.AI.Web.dll
+C:\CRUD\CRUD\CRUD\bin\Microsoft.AI.WindowsServer.dll
+C:\CRUD\CRUD\CRUD\bin\Microsoft.ApplicationInsights.dll
+C:\CRUD\CRUD\CRUD\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\CRUD\CRUD\CRUD\bin\Microsoft.Extensions.Caching.Abstractions.dll
+C:\CRUD\CRUD\CRUD\bin\Microsoft.Extensions.Caching.Memory.dll
+C:\CRUD\CRUD\CRUD\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\CRUD\CRUD\CRUD\bin\Microsoft.Extensions.Configuration.Binder.dll
+C:\CRUD\CRUD\CRUD\bin\Microsoft.Extensions.Configuration.dll
+C:\CRUD\CRUD\CRUD\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\CRUD\CRUD\CRUD\bin\Microsoft.Extensions.DependencyInjection.dll
+C:\CRUD\CRUD\CRUD\bin\Microsoft.Extensions.Logging.Abstractions.dll
+C:\CRUD\CRUD\CRUD\bin\Microsoft.Extensions.Logging.dll
+C:\CRUD\CRUD\CRUD\bin\Microsoft.Extensions.OptionsModel.dll
+C:\CRUD\CRUD\CRUD\bin\Microsoft.Extensions.Primitives.dll
+C:\CRUD\CRUD\CRUD\bin\Microsoft.Web.Infrastructure.dll
+C:\CRUD\CRUD\CRUD\bin\Newtonsoft.Json.dll
+C:\CRUD\CRUD\CRUD\bin\Remotion.Linq.dll
+C:\CRUD\CRUD\CRUD\bin\System.Collections.Immutable.dll
+C:\CRUD\CRUD\CRUD\bin\System.Diagnostics.DiagnosticSource.dll
+C:\CRUD\CRUD\CRUD\bin\System.Interactive.Async.dll
+C:\CRUD\CRUD\CRUD\bin\System.Web.Helpers.dll
+C:\CRUD\CRUD\CRUD\bin\System.Web.Mvc.dll
+C:\CRUD\CRUD\CRUD\bin\System.Web.Optimization.dll
+C:\CRUD\CRUD\CRUD\bin\System.Web.Razor.dll
+C:\CRUD\CRUD\CRUD\bin\System.Web.WebPages.Deployment.dll
+C:\CRUD\CRUD\CRUD\bin\System.Web.WebPages.dll
+C:\CRUD\CRUD\CRUD\bin\System.Web.WebPages.Razor.dll
+C:\CRUD\CRUD\CRUD\bin\WebGrease.dll
+C:\CRUD\CRUD\CRUD\bin\EntityFramework.Commands.xml
+C:\CRUD\CRUD\CRUD\bin\EntityFramework.Core.xml
+C:\CRUD\CRUD\CRUD\bin\EntityFramework.MicrosoftSqlServer.xml
+C:\CRUD\CRUD\CRUD\bin\EntityFramework.Relational.xml
+C:\CRUD\CRUD\CRUD\bin\EntityFramework.Relational.Design.xml
+C:\CRUD\CRUD\CRUD\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\CRUD\CRUD\CRUD\bin\Microsoft.Extensions.Caching.Abstractions.xml
+C:\CRUD\CRUD\CRUD\bin\Microsoft.Extensions.Caching.Memory.xml
+C:\CRUD\CRUD\CRUD\bin\Microsoft.Extensions.Configuration.xml
+C:\CRUD\CRUD\CRUD\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\CRUD\CRUD\CRUD\bin\Microsoft.Extensions.Configuration.Binder.xml
+C:\CRUD\CRUD\CRUD\bin\Microsoft.Extensions.DependencyInjection.xml
+C:\CRUD\CRUD\CRUD\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\CRUD\CRUD\CRUD\bin\Microsoft.Extensions.Logging.xml
+C:\CRUD\CRUD\CRUD\bin\Microsoft.Extensions.Logging.Abstractions.xml
+C:\CRUD\CRUD\CRUD\bin\Microsoft.Extensions.OptionsModel.xml
+C:\CRUD\CRUD\CRUD\bin\Microsoft.Extensions.Primitives.xml
+C:\CRUD\CRUD\CRUD\bin\Remotion.Linq.xml
+C:\CRUD\CRUD\CRUD\bin\System.Collections.Immutable.xml
+C:\CRUD\CRUD\CRUD\bin\System.Diagnostics.DiagnosticSource.xml
+C:\CRUD\CRUD\CRUD\bin\System.Interactive.Async.xml
+C:\CRUD\CRUD\CRUD\bin\System.Web.Helpers.xml
+C:\CRUD\CRUD\CRUD\bin\System.Web.Mvc.xml
+C:\CRUD\CRUD\CRUD\bin\System.Web.Optimization.xml
+C:\CRUD\CRUD\CRUD\bin\System.Web.Razor.xml
+C:\CRUD\CRUD\CRUD\bin\System.Web.WebPages.xml
+C:\CRUD\CRUD\CRUD\bin\System.Web.WebPages.Deployment.xml
+C:\CRUD\CRUD\CRUD\bin\System.Web.WebPages.Razor.xml
+C:\CRUD\CRUD\CRUD\bin\Antlr3.Runtime.pdb
+C:\CRUD\CRUD\CRUD\bin\Newtonsoft.Json.xml
+C:\CRUD\CRUD\CRUD\bin\Microsoft.ApplicationInsights.xml
+C:\CRUD\CRUD\CRUD\bin\Microsoft.AI.DependencyCollector.xml
+C:\CRUD\CRUD\CRUD\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\CRUD\CRUD\CRUD\bin\Microsoft.AI.WindowsServer.xml
+C:\CRUD\CRUD\CRUD\bin\Microsoft.AI.Web.xml
+C:\CRUD\CRUD\CRUD\obj\Debug\CRUD.csprojResolveAssemblyReference.cache
+C:\CRUD\CRUD\CRUD\obj\Debug\CRUD.csproj.CoreCompileInputs.cache
+C:\CRUD\CRUD\CRUD\obj\Debug\CRUD.dll
+C:\CRUD\CRUD\CRUD\obj\Debug\CRUD.pdb
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\ApplicationInsights.config
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\roslyn\csc.exe
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\roslyn\csc.exe.config
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\roslyn\csc.rsp
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\roslyn\csi.exe
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\roslyn\csi.exe.config
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\roslyn\csi.rsp
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\roslyn\System.AppContext.dll
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\roslyn\System.Collections.Immutable.dll
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\roslyn\System.Console.dll
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\roslyn\System.Diagnostics.Process.dll
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\roslyn\System.IO.Compression.dll
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\roslyn\System.IO.FileSystem.dll
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\roslyn\System.IO.Pipes.dll
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\roslyn\System.Reflection.Metadata.dll
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\roslyn\System.Security.AccessControl.dll
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\roslyn\System.Security.Claims.dll
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\roslyn\System.Security.Principal.Windows.dll
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\roslyn\System.Threading.Thread.dll
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\roslyn\System.ValueTuple.dll
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\roslyn\System.Xml.XmlDocument.dll
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\roslyn\System.Xml.XPath.dll
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\roslyn\vbc.exe
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\roslyn\vbc.exe.config
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\roslyn\vbc.rsp
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\roslyn\VBCSCompiler.exe
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\roslyn\VBCSCompiler.exe.config
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\CRUD.dll.config
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\CRUD.dll
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\CRUD.pdb
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\Antlr3.Runtime.dll
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\EntityFramework.Commands.dll
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\EntityFramework.Core.dll
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\EntityFramework.MicrosoftSqlServer.dll
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\EntityFramework.Relational.Design.dll
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\EntityFramework.Relational.dll
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\Microsoft.AI.Agent.Intercept.dll
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\Microsoft.AI.DependencyCollector.dll
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\Microsoft.AI.Web.dll
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\Microsoft.AI.WindowsServer.dll
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\Microsoft.ApplicationInsights.dll
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\Microsoft.Extensions.Caching.Abstractions.dll
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\Microsoft.Extensions.Caching.Memory.dll
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\Microsoft.Extensions.Configuration.Binder.dll
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\Microsoft.Extensions.Configuration.dll
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\Microsoft.Extensions.DependencyInjection.dll
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\Microsoft.Extensions.Logging.Abstractions.dll
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\Microsoft.Extensions.Logging.dll
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\Microsoft.Extensions.OptionsModel.dll
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\Microsoft.Extensions.Primitives.dll
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\Microsoft.Web.Infrastructure.dll
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\Newtonsoft.Json.dll
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\Remotion.Linq.dll
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\System.Collections.Immutable.dll
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\System.Diagnostics.DiagnosticSource.dll
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\System.Interactive.Async.dll
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\System.Web.Helpers.dll
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\System.Web.Mvc.dll
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\System.Web.Optimization.dll
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\System.Web.Razor.dll
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\System.Web.WebPages.Deployment.dll
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\System.Web.WebPages.dll
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\System.Web.WebPages.Razor.dll
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\WebGrease.dll
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\EntityFramework.Commands.xml
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\EntityFramework.Core.xml
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\EntityFramework.MicrosoftSqlServer.xml
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\EntityFramework.Relational.xml
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\EntityFramework.Relational.Design.xml
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\Microsoft.Extensions.Caching.Abstractions.xml
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\Microsoft.Extensions.Caching.Memory.xml
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\Microsoft.Extensions.Configuration.xml
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\Microsoft.Extensions.Configuration.Binder.xml
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\Microsoft.Extensions.DependencyInjection.xml
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\Microsoft.Extensions.Logging.xml
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\Microsoft.Extensions.Logging.Abstractions.xml
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\Microsoft.Extensions.OptionsModel.xml
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\Microsoft.Extensions.Primitives.xml
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\Remotion.Linq.xml
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\System.Collections.Immutable.xml
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\System.Diagnostics.DiagnosticSource.xml
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\System.Interactive.Async.xml
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\System.Web.Helpers.xml
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\System.Web.Mvc.xml
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\System.Web.Optimization.xml
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\System.Web.Razor.xml
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\System.Web.WebPages.xml
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\System.Web.WebPages.Deployment.xml
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\System.Web.WebPages.Razor.xml
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\Antlr3.Runtime.pdb
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\Newtonsoft.Json.xml
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\Microsoft.ApplicationInsights.xml
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\Microsoft.AI.DependencyCollector.xml
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\Microsoft.AI.WindowsServer.xml
+C:\CRUD\CRUD - EASY\CRUD\CRUD\bin\Microsoft.AI.Web.xml
+C:\CRUD\CRUD - EASY\CRUD\CRUD\obj\Debug\CRUD.csprojResolveAssemblyReference.cache
+C:\CRUD\CRUD - EASY\CRUD\CRUD\obj\Debug\CRUD.csproj.CoreCompileInputs.cache
+C:\CRUD\CRUD - EASY\CRUD\CRUD\obj\Debug\CRUD.dll
+C:\CRUD\CRUD - EASY\CRUD\CRUD\obj\Debug\CRUD.pdb

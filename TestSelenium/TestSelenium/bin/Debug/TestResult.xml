@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\CRUD\TestSelenium\TestSelenium\bin\Debug\TestSelenium.dll" total="1" errors="1" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2017-12-14" time="22:50:53">
+  <environment nunit-version="2.6.4.14350" clr-version="2.0.50727.8794" os-version="Microsoft Windows NT 6.2.9200.0" platform="Win32NT" cwd="C:\Program Files (x86)\NUnit 2.6.4\bin" machine-name="PC-PINHOJUNIOR" user="raque" user-domain="PC-PINHOJUNIOR" />
+  <culture-info current-culture="pt-BR" current-uiculture="pt-BR" />
+  <test-suite type="Assembly" name="C:\CRUD\TestSelenium\TestSelenium\bin\Debug\TestSelenium.dll" executed="True" result="Failure" success="False" time="0.154" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="TestSelenium" executed="True" result="Failure" success="False" time="0.144" asserts="0">
+        <results>
+          <test-suite type="Namespace" name="TestsCrud" executed="True" result="Failure" success="False" time="0.143" asserts="0">
+            <results>
+              <test-suite type="TestFixture" name="ListCandidate" executed="True" result="Failure" success="False" time="0.142" asserts="0">
+                <results>
+                  <test-case name="TestSelenium.TestsCrud.ListCandidate.GoListCandidate" executed="True" result="Error" success="False" time="0.133" asserts="0">
+                    <failure>
+                      <message><![CDATA[OpenQA.Selenium.DriverServiceNotFoundException : The geckodriver.exe file does not exist in the current directory or in a directory on the PATH environment variable. The driver can be downloaded at https://github.com/mozilla/geckodriver/releases.]]></message>
+                      <stack-trace><![CDATA[em OpenQA.Selenium.DriverService.FindDriverServiceExecutable(String executableName, Uri downloadUrl)
+em OpenQA.Selenium.Firefox.FirefoxDriverService.CreateDefaultService()
+em OpenQA.Selenium.Firefox.FirefoxDriver..ctor(FirefoxOptions options)
+em TestSelenium.TestsCrud.ListCandidate.GoListCandidate() na C:\CRUD\TestSelenium\TestSelenium\TestsCrud\ListCandidate.cs:linha 19
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

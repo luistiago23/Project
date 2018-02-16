@@ -1,0 +1,481 @@
+<div class="container py-3">
+    <div class="row">
+        <div class="col-sm-12 col-sm-offset-1">
+            <form (ngSubmit)="saveData()">
+                <div class="card card-body" [ngSwitch]="aba">
+                    <h1 *ngIf="aba === 'part1'" class="text-center mb-4">
+                        Banco de Talentos - Develop & Technology (Candidato)</h1>
+                    <h3 *ngIf="aba === 'part1'" class="text-center mb-4">Área de atuação</h3>
+                    <h5 *ngIf="aba === 'part1'" style="color:#566573;" class="text-center mb-4">Se você atua como desenvolvedor ou DBA,
+                        continue o preenchimento deste formulário</h5>
+                    <h5 *ngIf="aba === 'part1'" style="color:#566573;" class="text-center mb-4">Se você atua como designer, preencha ao formulário
+                        disponível em https://google.com</h5>
+                    <h5 *ngIf="aba === 'part1'" style="color:#566573;" class="text-center mb-4">Se você atua na área administrativa, atendimento ao cliente ou comercial, preencha ao formulário
+                        disponível em https://google.com</h5>
+
+                    <h3 *ngIf="aba === 'part2'" class="text-center mb-4">Informação bancária</h3>
+                    <h5 *ngIf="aba === 'part2'" class="text-center mb-4">Você
+                        pode optar em receber seu pagamento pelo Paypal, PagSeguro ou contas bancarias convencionais</h5>
+
+                    <h3 *ngIf="aba === 'part3'" class="text-center mb-4">Conhecimentos</h3>
+                    <h5 *ngIf="aba === 'part3'" class="text-center mb-4">Avalie-se de 0 a 5 quanto aos conhecimentos especificados
+                        abaixo, e tudo bem se não souber de muitas coisas, o importante é que seja sincero!</h5>
+
+                    <h5 style="color: red; font-size: 12px;" class="text-center mb-4">*Obrigatório</h5>
+
+                    <!-- Part 1 -->
+                    <fieldset [formGroup]="formPartOne" *ngSwitchCase="'part1'">
+
+                        <label for="InputForm">Email address
+                            <span style="color: red; font-size: 16px;">*</span>
+                        </label>
+                        <input type="email" [(ngModel)]="candidate.Email" formControlName="Email" class="form-control" id="Email" 
+                            placeholder="Sua Resposta">
+                        <small  class="form-text text-muted">We'll never share your email with anyone else.
+                            <br>
+                        </small>
+                        <app-campo-control-erro [control]="formPartOne.controls.Email"></app-campo-control-erro>
+
+                        <label for="InputForm">Skype:
+                            <span style="color: red; font-size: 16px;">*</span>
+                        </label>
+                        <input [(ngModel)]="candidate.Skype" formControlName="Skype" class="form-control" id="Skype" 
+                            placeholder="Sua Resposta">
+                        <small  class="form-text text-muted">bom criar caso não tenha.
+                            <br>
+                        </small>
+                        <app-campo-control-erro [control]="formPartOne.controls.Skype"></app-campo-control-erro>
+
+                        <label for="InputForm">Telefone (Whatsapp):
+                            <span style="color: red; font-size: 16px;">*</span>
+                        </label>
+                        <input type="number" id="Phone" [(ngModel)]="candidate.Phone" formControlName="Phone" class="form-control" 
+                            placeholder="Sua Resposta">
+                        <app-campo-control-erro [control]="formPartOne.controls.Phone"></app-campo-control-erro>
+
+                        <label for="InputForm">Linkedin:</label>
+                        <input id="Linkedin" [(ngModel)]="candidate.Linkedin" formControlName="Linkedin" class="form-control" 
+                            placeholder="Sua Resposta">
+
+                        <label for="InputForm">Cidade
+                            <span style="color: red; font-size: 16px;">*</span>
+                        </label>
+                        <input id="City" [(ngModel)]="candidate.City" formControlName="City" class="form-control" 
+                            placeholder="Sua Resposta">
+                        <app-campo-control-erro [control]="formPartOne.controls.City"></app-campo-control-erro>
+
+                        <label for="InputForm">Estado
+                            <span style="color: red; font-size: 16px;">*</span>
+                        </label>
+                        <input id="State" [(ngModel)]="candidate.State" formControlName="State" class="form-control" 
+                            placeholder="Sua Resposta">
+                        <app-campo-control-erro [control]="formPartOne.controls.State"></app-campo-control-erro>
+
+                        <label for="InputForm">Portfolio</label>
+                        <input id="Portfolio" [(ngModel)]="candidate.Portfolio" formControlName="Portfolio" class="form-control" 
+                            placeholder="Sua Resposta">
+
+
+                        <div class="containers">
+                            <div class="row">
+                                <div>
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">WQual é sua disponibilidade para trabalhar
+                                            hoje?
+                                            <span style="color: red; font-size: 16px;">*</span>
+                                        </div>
+                                        <ul class="list-group" formGroupName="formWorkHours">
+                                            <li class="list-group-item">
+                                                Até 4 horas por dia
+                                                <div id="UpToFourHoursClick" class="material-switch pull-right">
+                                                    <input [(ngModel)]="candidate.UpToFourHours" id="UpToFourHours" formControlName="UpToFourHours" type="checkbox" />
+                                                    <label for="UpToFourHours" class="label-primary"></label>
+                                                </div>
+                                            </li>
+                                            <li class="list-group-item">
+                                                De 4 á 6 horas por dia
+                                                <div id="FourToSixClick" class="material-switch pull-right">
+                                                    <input [(ngModel)]="candidate.FourToSix" id="FourToSix" formControlName="FourToSix" type="checkbox" />
+                                                    <label for="FourToSix" class="label-primary"></label>
+                                                </div>
+                                            </li>
+                                            <li class="list-group-item">
+                                                De 6 á 8 horas por dia
+                                                <div id="SixToEightClick" class="material-switch pull-right">
+                                                    <input [(ngModel)]="candidate.SixToEight" id="SixToEight" formControlName="SixToEight" type="checkbox" />
+                                                    <label for="SixToEight" class="label-primary"></label>
+                                                </div>
+                                            </li>
+                                            <li class="list-group-item">
+                                                Acima de 8 horas por dia (tem certeza?)
+                                                <div id="UpToEightClick" class="material-switch pull-right">
+                                                    <input [(ngModel)]="candidate.UpToEight" id="UpToEight" formControlName="UpToEight" type="checkbox" />
+                                                    <label for="UpToEight" class="label-primary"></label>
+                                                </div>
+                                            </li>
+                                            <li class="list-group-item">
+                                                Apenas finais de semana
+                                                <div id="OnlyWeekendsClick" class="material-switch pull-right">
+                                                    <input [(ngModel)]="candidate.OnlyWeekends" id="OnlyWeekends" formControlName="OnlyWeekends" type="checkbox" />
+                                                    <label for="OnlyWeekends" class="label-primary"></label>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="containers">
+                            <div class="row">
+                                <div>
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">Pra você qual é o melhor horário para trabalhar?
+                                            <span style="color: red; font-size: 16px;">*</span>
+                                        </div>
+
+                                        <ul class="list-group" formGroupName="formBestTime">
+                                            <li class="list-group-item">
+                                                Manhã (de 08:00 ás 12:00)
+                                                <div id="MorningCheck" class="material-switch pull-right">
+                                                    <input [(ngModel)]="candidate.Morning" id="someSwitchOptionDefault" formControlName="Morning" type="checkbox" />
+                                                    <label for="someSwitchOptionDefault" class="label-primary"></label>
+                                                </div>
+                                            </li>
+                                            <li class="list-group-item">
+                                               Tarde (de 13:00 ás 18:00)
+                                                <div id="AfternoonCheck" class="material-switch pull-right">
+                                                    <input [(ngModel)]="candidate.Afternoon" id="someSwitchOptionPrimary" formControlName="Afternoon" type="checkbox" />
+                                                    <label for="someSwitchOptionPrimary" class="label-primary"></label>
+                                                </div>
+                                            </li>
+                                            <li class="list-group-item">
+                                               Noite (de 19:00 as 22:00)
+                                                <div id="NightCheck" class="material-switch pull-right">
+                                                    <input [(ngModel)]="candidate.Night" id="someSwitchOptionSuccess" formControlName="Night" type="checkbox" />
+                                                    <label for="someSwitchOptionSuccess" class="label-primary"></label>
+                                                </div>
+                                            </li>
+                                            <li class="list-group-item">
+                                                Madrugada (de 22:00 em diante)
+                                                <div id="DawnCheck" class="material-switch pull-right">
+                                                    <input [(ngModel)]="candidate.Dawn" id="someSwitchOptionInfo" formControlName="Dawn" type="checkbox" />
+                                                    <label for="someSwitchOptionInfo" class="label-primary"></label>
+                                                </div>
+                                            </li>
+                                            <li class="list-group-item">
+                                                Comercial (de 08:00 as 18:00)
+                                                <div id="BusinessCheck" class="material-switch pull-right">
+                                                    <input [(ngModel)]="candidate.Business" id="someSwitchOptionWarning" formControlName="Business" type="checkbox" />
+                                                    <label for="someSwitchOptionWarning" class="label-primary"></label>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <app-campo-control-erro [control]="formPartOne.controls.formBestTime"></app-campo-control-erro>
+
+                        <label for="InputForm">Qual sua pretensão salarial por hora?
+                            <span style="color: red; font-size: 16px;">*</span>
+                        </label>
+                        <input type="number" [(ngModel)]="candidate.SalaryRequirement" formControlName="SalaryRequirement" class="form-control" id="SalaryRequirement"
+                             placeholder="Sua Resposta">
+                        <app-campo-control-erro [control]="formPartOne.controls.SalaryRequirement"></app-campo-control-erro>
+
+                        <label for="InputForm">Bank Information / Paypal / Itau etc</label>
+                        <input [(ngModel)]="candidate.BankInformation" formControlName="BankInformation" class="form-control" id="BankInformation"
+                             placeholder="Sua Resposta">
+                        <small  class="form-text text-muted">Banco brasileiro precisa: Nome, CPF, Banco, Agencia, Conta Corrente ou Poupanca
+                            <br>
+                        </small>
+
+
+
+                        <app-campo-control-erro [control]="formPartOne.controls.formWorkHours"></app-campo-control-erro>
+
+                        <div id="teste" class="text-center">
+                            <button id="NextOne" [disabled]="!formPartOne.valid" (click)="aba = 'part2'" type="button" class="btn btn-primary">Next</button>
+                        </div>
+
+                    </fieldset>
+
+                    <!-- Part 2 -->
+                    <fieldset [formGroup]="formPartTwo" *ngSwitchCase="'part2'">
+
+                        <label for="InputForm">Nome</label>
+                        <input [(ngModel)]="candidate.Name" formControlName="Name" class="form-control" id="Name" 
+                            placeholder="Sua Resposta">
+
+                        <label for="InputForm">CPF</label>
+                        <input [(ngModel)]="candidate.Cpf" formControlName="Cpf" class="form-control" id="Cpf" 
+                            placeholder="Sua Resposta">
+
+                        <label for="InputForm">Banco ( Itau, Bradesco, ect..)</label>
+                        <input [(ngModel)]="candidate.Bank" formControlName="Bank" class="form-control" id="Bank" 
+                            placeholder="Sua Resposta">
+
+                        <label for="InputForm">Agencia</label>
+                        <input [(ngModel)]="candidate.Agency" formControlName="Agency" class="form-control" id="Agency" 
+                            placeholder="Sua Resposta">
+
+                        <div class="containers">
+                            <div class="row">
+                                <div>
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">Tipo de conta
+                                            <span style="color: red; font-size: 16px;">*</span>
+                                        </div>
+                                        <ul class="list-group" formGroupName="AccountType">
+                                            <li class="list-group-item">
+                                                Corrente
+                                                <div id="ChainClick" class="material-switch pull-right">
+                                                    <input [(ngModel)]="candidate.Chain" id="Chain" formControlName="Chain" type="checkbox" />
+                                                    <label for="Chain" class="label-primary"></label>
+                                                </div>
+                                            </li>
+                                            <li class="list-group-item">
+                                                Poupança
+                                                <div id="SavingsClick" class="material-switch pull-right">
+                                                    <input [(ngModel)]="candidate.Savings" id="Savings" formControlName="Savings" type="checkbox" />
+                                                    <label for="Savings" class="label-primary"></label>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <label for="InputForm">Número da conta</label>
+                        <input type="number" [(ngModel)]="candidate.AccountNumber" formControlName="AccountNumber" class="form-control" id="AccountNumber"
+                             placeholder="Sua Resposta">
+
+                        <div id="teste" class="text-center">
+                            <button (click)="aba = 'part1'" type="button" class="btn btn-primary">Back</button>
+                        </div>
+                        <div id="teste" class="text-center">
+                            <button id="NextTwo" [disabled]="!formPartTwo.valid" (click)="aba = 'part3'" type="button" class="btn btn-primary">Next</button>
+                        </div>
+                    </fieldset>
+
+                    <!-- Parte 3 -->
+                    <fieldset [formGroup]="formPartThree" *ngSwitchCase="'part3'">
+                        <div class="container">
+                            <label for="InputForm">Ionic:
+                                <span style="color: red; font-size: 16px;">*</span>
+                            </label>
+                            <div id="knowledgeDiv">
+                                <label for="InputForm">Nao conheco</label>
+                                <p-selectButton id="Ionic" [options]="skillLevel" [(ngModel)]="candidate.Ionic" formControlName="Ionic" required></p-selectButton>
+                                <label for="InputForm">Senior</label>
+                            </div>
+
+                            <label for="InputForm">Android:
+                                <span style="color: red; font-size: 16px;">*</span>
+                            </label>
+                            <div id="knowledgeDiv">
+                                <label for="InputForm">Nao conheco</label>
+                                <p-selectButton id="Android" [options]="skillLevel" [(ngModel)]="candidate.Android" formControlName="Android" required></p-selectButton>
+                                <label for="InputForm">Senior</label>
+                            </div>
+
+                            <label for="InputForm">IOS:
+                                <span style="color: red; font-size: 16px;">*</span>
+                            </label>
+                            <div id="knowledgeDiv">
+                                <label for="InputForm">Nao conheco</label>
+                                <p-selectButton id="Ios" [options]="skillLevel" [(ngModel)]="candidate.Ios" formControlName="Ios" required></p-selectButton>
+                                <label for="InputForm">Senior</label>
+                            </div>
+
+                            <label for="InputForm">Html:</label>
+                            <div id="knowledgeDiv">
+                                <label for="InputForm">Nao conheco</label>
+                                <p-selectButton id="Html" [options]="skillLevel" [(ngModel)]="candidate.Html" formControlName="Html"></p-selectButton>
+                                <label for="InputForm">Senior</label>
+                            </div>
+
+                            <label for="InputForm">CSS:</label>
+                            <div id="knowledgeDiv">
+                                <label for="InputForm">Nao conheco</label>
+                                <p-selectButton id="Css" [options]="skillLevel" [(ngModel)]="candidate.Css" formControlName="Css"></p-selectButton>
+                                <label for="InputForm">Senior</label>
+                            </div>
+
+                            <label for="InputForm">Bootstrap:
+                                <span style="color: red; font-size: 16px;">*</span>
+                            </label>
+                            <div id="knowledgeDiv">
+                                <label for="InputForm">Nao conheco</label>
+                                <p-selectButton id="Bootstrap" [options]="skillLevel" [(ngModel)]="candidate.Bootstrap" formControlName="Bootstrap" required></p-selectButton>
+                                <label for="InputForm">Senior</label>
+                            </div>
+
+                            <label for="InputForm">Jquery:
+                                <span style="color: red; font-size: 16px;">*</span>
+                            </label>
+                            <div id="knowledgeDiv">
+                                <label for="InputForm">Nao conheco</label>
+                                <p-selectButton id="Jquery" [options]="skillLevel" [(ngModel)]="candidate.Jquery" formControlName="Jquery" required></p-selectButton>
+                                <label for="InputForm">Senior</label>
+                            </div>
+
+                            <label for="InputForm">AngularJs:
+                                <span style="color: red; font-size: 16px;">*</span>
+                            </label>
+                            <div id="knowledgeDiv">
+                                <label for="InputForm">Nao conheco</label>
+                                <p-selectButton id="AngularJs" [options]="skillLevel" [(ngModel)]="candidate.AngularJs" formControlName="AngularJs" required></p-selectButton>
+                                <label for="InputForm">Senior</label>
+                            </div>
+
+                            <label for="InputForm">java:</label>
+                            <div id="knowledgeDiv">
+                                <label for="InputForm">Nao conheco</label>
+                                <p-selectButton id="java" [options]="skillLevel" [(ngModel)]="candidate.java" formControlName="java"></p-selectButton>
+                                <label for="InputForm">Senior</label>
+                            </div>
+
+                            <label for="InputForm">Asp.Net MVC:
+                                <span style="color: red; font-size: 16px;">*</span>
+                            </label>
+                            <div id="knowledgeDiv">
+                                <label for="InputForm">Nao conheco</label>
+                                <p-selectButton id="AspNet" [options]="skillLevel" [(ngModel)]="candidate.AspNet" formControlName="AspNet" required></p-selectButton>
+                                <label for="InputForm">Senior</label>
+                            </div>
+
+                            <label for="InputForm">C:</label>
+                            <div id="knowledgeDiv">
+                                <label for="InputForm">Nao conheco</label>
+                                <p-selectButton id="C" [options]="skillLevel" [(ngModel)]="candidate.C" formControlName="C"></p-selectButton>
+                                <label for="InputForm">Senior</label>
+                            </div>
+
+                            <label for="InputForm">C++:</label>
+                            <div id="knowledgeDiv">
+                                <label for="InputForm">Nao conheco</label>
+                                <p-selectButton id="CPlusPlus" [options]="skillLevel" [(ngModel)]="candidate.CPlusPlus" formControlName="CPlusPlus"></p-selectButton>
+                                <label for="InputForm">Senior</label>
+                            </div>
+
+                            <label for="InputForm">Cake:</label>
+                            <div id="knowledgeDiv">
+                                <label for="InputForm">Nao conheco</label>
+                                <p-selectButton id="Cake" [options]="skillLevel" [(ngModel)]="candidate.Cake" formControlName="Cake"></p-selectButton>
+                                <label for="InputForm">Senior</label>
+                            </div>
+
+                            <label for="InputForm">DJango:</label>
+                            <div id="knowledgeDiv">
+                                <label for="InputForm">Nao conheco</label>
+                                <p-selectButton id="DJango" [options]="skillLevel" [(ngModel)]="candidate.DJango" formControlName="DJango"></p-selectButton>
+                                <label for="InputForm">Senior</label>
+                            </div>
+
+                            <label for="InputForm">Majento:</label>
+                            <div id="knowledgeDiv">
+                                <label for="InputForm">Nao conheco</label>
+                                <p-selectButton id="Majento" [options]="skillLevel" [(ngModel)]="candidate.Majento" formControlName="Majento"></p-selectButton>
+                                <label for="InputForm">Senior</label>
+                            </div>
+
+                            <label for="InputForm">Php:
+                                <span style="color: red; font-size: 16px;">*</span>
+                            </label>
+                            <div id="knowledgeDiv">
+                                <label for="InputForm">Nao conheco</label>
+                                <p-selectButton id="Php" [options]="skillLevel" [(ngModel)]="candidate.Php" formControlName="Php" required></p-selectButton>
+                                <label for="InputForm">Senior</label>
+                            </div>
+
+                            <label for="InputForm">Wordpress:
+                                <span style="color: red; font-size: 16px;">*</span>
+                            </label>
+                            <div id="knowledgeDiv">
+                                <label for="InputForm">Nao conheco</label>
+                                <p-selectButton id="Wordpress" [options]="skillLevel" [(ngModel)]="candidate.Wordpress" formControlName="Wordpress" required></p-selectButton>
+                                <label for="InputForm">Senior</label>
+                            </div>
+
+                            <label for="InputForm">Phyton:</label>
+                            <div id="knowledgeDiv">
+                                <label for="InputForm">Nao conheco</label>
+                                <p-selectButton id="Phyton" [options]="skillLevel" [(ngModel)]="candidate.Phyton" formControlName="Phyton"></p-selectButton>
+                                <label for="InputForm">Senior</label>
+                            </div>
+
+                            <label for="InputForm">Ruby:</label>
+                            <div id="knowledgeDiv">
+                                <label for="InputForm">Nao conheco</label>
+                                <p-selectButton id="Ruby" [options]="skillLevel" [(ngModel)]="candidate.Ruby" formControlName="Ruby"></p-selectButton>
+                                <label for="InputForm">Senior</label>
+                            </div>
+
+                            <label for="InputForm">MySql Server:</label>
+                            <div id="knowledgeDiv">
+                                <label for="InputForm">Nao conheco</label>
+                                <p-selectButton id="MySqlServer" [options]="skillLevel" [(ngModel)]="candidate.MySqlServer" formControlName="MySqlServer"></p-selectButton>
+                                <label for="InputForm">Senior</label>
+                            </div>
+
+                            <label for="InputForm">MySql:</label>
+                            <div id="knowledgeDiv">
+                                <label for="InputForm">Nao conheco</label>
+                                <p-selectButton id="MySql" [options]="skillLevel" [(ngModel)]="candidate.MySql" formControlName="MySql"></p-selectButton>
+                                <label for="InputForm">Senior</label>
+                            </div>
+
+                            <label for="InputForm">SalesForce:</label>
+                            <div id="knowledgeDiv">
+                                <label for="InputForm">Nao conheco</label>
+                                <p-selectButton id="SalesForce" [options]="skillLevel" [(ngModel)]="candidate.SalesForce" formControlName="SalesForce"></p-selectButton>
+                                <label for="InputForm">Senior</label>
+                            </div>
+
+                            <label for="InputForm">Photoshop:</label>
+                            <div id="knowledgeDiv">
+                                <label for="InputForm">Nao conheco</label>
+                                <p-selectButton id="Photoshop" [options]="skillLevel" [(ngModel)]="candidate.Photoshop" formControlName="Photoshop"></p-selectButton>
+                                <label for="InputForm">Senior</label>
+                            </div>
+
+                            <label for="InputForm">Illustrator:</label>
+                            <div id="knowledgeDiv">
+                                <label for="InputForm">Nao conheco</label>
+                                <p-selectButton id="Illustrator" [options]="skillLevel" [(ngModel)]="candidate.Illustrator" formControlName="Illustrator"></p-selectButton>
+                                <label for="InputForm">Senior</label>
+                            </div>
+
+                            <label for="InputForm">Seo:</label>
+                            <div id="knowledgeDiv">
+                                <label for="InputForm">Nao conheco</label>
+                                <p-selectButton id="Seo" [options]="skillLevel" [(ngModel)]="candidate.Seo" formControlName="Seo"></p-selectButton>
+                                <label for="InputForm">Senior</label>
+                            </div>
+                        </div>
+
+                        <label for="InputForm">Conhece mais alguma linguagem ou framework que não foi listado aqui em cima? Conte
+                            para nos e se auto avalie ainda de 0 a 5.</label>
+                        <input [(ngModel)]="candidate.OtherTechnology" formControlName="OtherTechnology" class="form-control" id="OtherTechnology"
+                             placeholder="Sua Resposta">
+                       
+                        <p-growl [(value)]="msgs"></p-growl>
+
+                        <div id="teste" class="text-center">
+                            <button (click)="aba = 'part2'" type="button" class="btn btn-primary">Voltar</button>
+                        </div>
+
+                        <div id="teste" class="text-center">
+                            <button [disabled]="!formPartThree.valid" id="submitForm" type="submit" class="btn btn-success">Enviar</button>
+                        </div>
+
+                    </fieldset>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

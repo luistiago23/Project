@@ -1,0 +1,24 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "outDir": "./dist/out-tsc",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "target": "es5",
+    "typeRoots": [
+      "node_modules/@types",
+      "../node_modules/moment"
+    ],
+    "files": [
+      "typings.d.ts",
+      "src/main.ts"
+    ],
+    "lib": [
+      "es2016",
+      "dom"
+    ]
+  }
+}
